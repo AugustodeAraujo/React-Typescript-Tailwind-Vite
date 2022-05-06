@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.widget {
+  @apply px-3 bg-lime-600 rounded-full text-white h-12 flex place-items-center
+}
+
+body {
+  @apply bg-zinc-800 text-zinc-100;
+}
